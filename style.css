@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    color: white;
+    background-color: #000000;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+  
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+  
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+  
+.page-logo {
+  width: 200px;
+}
+  
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 20px;
+}
+input{
+  margin-bottom: 7px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+input[type=submit]:hover{
+  background-color: #fada06;
+}
+button,select{
+  margin: 7px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: #fada06;
+}
+
+
+#esconde-pai{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  display: none;
+}
+
+#esconde{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+#esconde1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  }
